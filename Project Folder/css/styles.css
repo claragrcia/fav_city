@@ -17,6 +17,7 @@ label {
 }
 
 
+
 .fst-group {
   position: relative;
   float: left;
@@ -28,15 +29,20 @@ label {
   position: relative;
   float: right;
   width: 400px;
+
 }
 
 #myParis {
   padding-top: 4%;
 }
 
+#reset
+{margin-left: 2%;}
+
 .sources {
   margin-left: 2%;
 }
-@@media query {
+@@media query (){
  #myParis {padding-top: 0;}
+
 }
