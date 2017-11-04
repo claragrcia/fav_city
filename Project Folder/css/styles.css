@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+label {
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: 1%;
+}
+
+
+.fst-group {
+  position: relative;
+  float: left;
+  width: 400px;
+}
+
+
+#snd-group {
+  position: relative;
+  float: right;
+  width: 400px;
+}
+
+#myParis {
+  padding-top: 4%;
+}
+
+.sources {
+  margin-left: 2%;
+}
+@@media query {
+ #myParis {padding-top: 0;}
+}
